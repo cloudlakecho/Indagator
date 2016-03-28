@@ -1,0 +1,9 @@
+create a Single View Application in Xcode call OrbitSample
+copy orbits.xml from th eresources folder of the lesson on the DVD into the Xcode project
+create a new NSObject subclass called OrbitData
+add the following @property declarations to the OrbitData.h file
+add the following @synthesize statements to the OrbitData.h file
+add user interface elements to the default scene.
+create the XML parser delegate object
+load and parse the XML file
+display contact information in the table view

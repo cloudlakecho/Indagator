@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE332DC51CA0AAE800F68C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DC41CA0AAE800F68C85 /* main.m */; };
+		CE332DC81CA0AAE800F68C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DC71CA0AAE800F68C85 /* AppDelegate.m */; };
+		CE332DCB1CA0AAE800F68C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DCA1CA0AAE800F68C85 /* ViewController.m */; };
+		CE332DCE1CA0AAE800F68C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE332DCC1CA0AAE800F68C85 /* Main.storyboard */; };
+		CE332DD01CA0AAE800F68C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE332DCF1CA0AAE800F68C85 /* Assets.xcassets */; };
+		CE332DDE1CA0AAE800F68C85 /* iss_tracker_27_copy__2_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DDD1CA0AAE800F68C85 /* iss_tracker_27_copy__2_Tests.m */; };
+		CE332DE91CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DE81CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m */; };
+		CE332DF91CA0AD2B00F68C85 /* OrbitData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DF81CA0AD2B00F68C85 /* OrbitData.m */; };
+		CE3AE2601CA0FBB30027603A /* OrbitDataXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE25F1CA0FBB30027603A /* OrbitDataXMLParserDelegate.m */; };
+		CE77A5E01CA3B6DC00DF03F9 /* orbits.xml in Resources */ = {isa = PBXBuildFile; fileRef = CE77A5DF1CA3B6DC00DF03F9 /* orbits.xml */; };
+		CE7A7C411CA499F300F9A9B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A7C401CA499F300F9A9B6 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE332DDA1CA0AAE800F68C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE332DB81CA0AAE800F68C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE332DBF1CA0AAE800F68C85;
+			remoteInfo = "iss_tracker_27_copy_(2)";
+		};
+		CE332DE51CA0AAE800F68C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE332DB81CA0AAE800F68C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE332DBF1CA0AAE800F68C85;
+			remoteInfo = "iss_tracker_27_copy_(2)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE332DC01CA0AAE800F68C85 /* iss_tracker_27_copy_(3).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iss_tracker_27_copy_(3).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE332DC41CA0AAE800F68C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE332DC61CA0AAE800F68C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE332DC71CA0AAE800F68C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE332DC91CA0AAE800F68C85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE332DCA1CA0AAE800F68C85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE332DCD1CA0AAE800F68C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE332DCF1CA0AAE800F68C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE332DD41CA0AAE800F68C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE332DD91CA0AAE800F68C85 /* iss_tracker_27_copy_(3).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iss_tracker_27_copy_(3).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE332DDD1CA0AAE800F68C85 /* iss_tracker_27_copy__2_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iss_tracker_27_copy__2_Tests.m; sourceTree = "<group>"; };
+		CE332DDF1CA0AAE800F68C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE332DE41CA0AAE800F68C85 /* iss_tracker_27_copy_(3).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iss_tracker_27_copy_(3).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE332DE81CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iss_tracker_27_copy__2_UITests.m; sourceTree = "<group>"; };
+		CE332DEA1CA0AAE800F68C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE332DF71CA0AD2B00F68C85 /* OrbitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitData.h; sourceTree = "<group>"; };
+		CE332DF81CA0AD2B00F68C85 /* OrbitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitData.m; sourceTree = "<group>"; };
+		CE3AE25E1CA0FBB30027603A /* OrbitDataXMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitDataXMLParserDelegate.h; sourceTree = "<group>"; };
+		CE3AE25F1CA0FBB30027603A /* OrbitDataXMLParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitDataXMLParserDelegate.m; sourceTree = "<group>"; };
+		CE77A5DF1CA3B6DC00DF03F9 /* orbits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orbits.xml; sourceTree = SOURCE_ROOT; };
+		CE7A7C401CA499F300F9A9B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE332DBD1CA0AAE800F68C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A7C411CA499F300F9A9B6 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE332DD61CA0AAE800F68C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE332DE11CA0AAE800F68C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE332DB71CA0AAE800F68C85 = {
+			isa = PBXGroup;
+			children = (
+				CE7A7C401CA499F300F9A9B6 /* CoreLocation.framework */,
+				CE332DF61CA0AC7500F68C85 /* New Group */,
+				CE332DC21CA0AAE800F68C85 /* iss_tracker_27_copy_(2) */,
+				CE332DDC1CA0AAE800F68C85 /* iss_tracker_27_copy_(2)Tests */,
+				CE332DE71CA0AAE800F68C85 /* iss_tracker_27_copy_(2)UITests */,
+				CE332DC11CA0AAE800F68C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE332DC11CA0AAE800F68C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE332DC01CA0AAE800F68C85 /* iss_tracker_27_copy_(3).app */,
+				CE332DD91CA0AAE800F68C85 /* iss_tracker_27_copy_(3).xctest */,
+				CE332DE41CA0AAE800F68C85 /* iss_tracker_27_copy_(3).xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE332DC21CA0AAE800F68C85 /* iss_tracker_27_copy_(2) */ = {
+			isa = PBXGroup;
+			children = (
+				CE77A5DF1CA3B6DC00DF03F9 /* orbits.xml */,
+				CE332DC61CA0AAE800F68C85 /* AppDelegate.h */,
+				CE332DF71CA0AD2B00F68C85 /* OrbitData.h */,
+				CE3AE25E1CA0FBB30027603A /* OrbitDataXMLParserDelegate.h */,
+				CE332DC91CA0AAE800F68C85 /* ViewController.h */,
+				CE332DC71CA0AAE800F68C85 /* AppDelegate.m */,
+				CE332DF81CA0AD2B00F68C85 /* OrbitData.m */,
+				CE3AE25F1CA0FBB30027603A /* OrbitDataXMLParserDelegate.m */,
+				CE332DCA1CA0AAE800F68C85 /* ViewController.m */,
+				CE332DD41CA0AAE800F68C85 /* Info.plist */,
+				CE332DCF1CA0AAE800F68C85 /* Assets.xcassets */,
+				CE332DCC1CA0AAE800F68C85 /* Main.storyboard */,
+				CE332DC31CA0AAE800F68C85 /* Supporting Files */,
+			);
+			path = "iss_tracker_27_copy_(2)";
+			sourceTree = "<group>";
+		};
+		CE332DC31CA0AAE800F68C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE332DC41CA0AAE800F68C85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE332DDC1CA0AAE800F68C85 /* iss_tracker_27_copy_(2)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE332DDD1CA0AAE800F68C85 /* iss_tracker_27_copy__2_Tests.m */,
+				CE332DDF1CA0AAE800F68C85 /* Info.plist */,
+			);
+			path = "iss_tracker_27_copy_(2)Tests";
+			sourceTree = "<group>";
+		};
+		CE332DE71CA0AAE800F68C85 /* iss_tracker_27_copy_(2)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE332DE81CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m */,
+				CE332DEA1CA0AAE800F68C85 /* Info.plist */,
+			);
+			path = "iss_tracker_27_copy_(2)UITests";
+			sourceTree = "<group>";
+		};
+		CE332DF61CA0AC7500F68C85 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE332DBF1CA0AAE800F68C85 /* iss_tracker_27_copy_(3) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE332DED1CA0AAE800F68C85 /* Build configuration list for PBXNativeTarget "iss_tracker_27_copy_(3)" */;
+			buildPhases = (
+				CE332DBC1CA0AAE800F68C85 /* Sources */,
+				CE332DBD1CA0AAE800F68C85 /* Frameworks */,
+				CE332DBE1CA0AAE800F68C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iss_tracker_27_copy_(3)";
+			productName = "iss_tracker_27_copy_(2)";
+			productReference = CE332DC01CA0AAE800F68C85 /* iss_tracker_27_copy_(3).app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE332DD81CA0AAE800F68C85 /* iss_tracker_27_copy_(3)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE332DF01CA0AAE800F68C85 /* Build configuration list for PBXNativeTarget "iss_tracker_27_copy_(3)Tests" */;
+			buildPhases = (
+				CE332DD51CA0AAE800F68C85 /* Sources */,
+				CE332DD61CA0AAE800F68C85 /* Frameworks */,
+				CE332DD71CA0AAE800F68C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE332DDB1CA0AAE800F68C85 /* PBXTargetDependency */,
+			);
+			name = "iss_tracker_27_copy_(3)Tests";
+			productName = "iss_tracker_27_copy_(2)Tests";
+			productReference = CE332DD91CA0AAE800F68C85 /* iss_tracker_27_copy_(3).xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE332DE31CA0AAE800F68C85 /* iss_tracker_27_copy_(3)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE332DF31CA0AAE800F68C85 /* Build configuration list for PBXNativeTarget "iss_tracker_27_copy_(3)UITests" */;
+			buildPhases = (
+				CE332DE01CA0AAE800F68C85 /* Sources */,
+				CE332DE11CA0AAE800F68C85 /* Frameworks */,
+				CE332DE21CA0AAE800F68C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE332DE61CA0AAE800F68C85 /* PBXTargetDependency */,
+			);
+			name = "iss_tracker_27_copy_(3)UITests";
+			productName = "iss_tracker_27_copy_(2)UITests";
+			productReference = CE332DE41CA0AAE800F68C85 /* iss_tracker_27_copy_(3).xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE332DB81CA0AAE800F68C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CE332DBF1CA0AAE800F68C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CE332DD81CA0AAE800F68C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE332DBF1CA0AAE800F68C85;
+					};
+					CE332DE31CA0AAE800F68C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE332DBF1CA0AAE800F68C85;
+					};
+				};
+			};
+			buildConfigurationList = CE332DBB1CA0AAE800F68C85 /* Build configuration list for PBXProject "iss_tracker_27_copy_(3)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE332DB71CA0AAE800F68C85;
+			productRefGroup = CE332DC11CA0AAE800F68C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE332DBF1CA0AAE800F68C85 /* iss_tracker_27_copy_(3) */,
+				CE332DD81CA0AAE800F68C85 /* iss_tracker_27_copy_(3)Tests */,
+				CE332DE31CA0AAE800F68C85 /* iss_tracker_27_copy_(3)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE332DBE1CA0AAE800F68C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE332DD01CA0AAE800F68C85 /* Assets.xcassets in Resources */,
+				CE332DCE1CA0AAE800F68C85 /* Main.storyboard in Resources */,
+				CE77A5E01CA3B6DC00DF03F9 /* orbits.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE332DD71CA0AAE800F68C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE332DE21CA0AAE800F68C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE332DBC1CA0AAE800F68C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE332DF91CA0AD2B00F68C85 /* OrbitData.m in Sources */,
+				CE332DCB1CA0AAE800F68C85 /* ViewController.m in Sources */,
+				CE332DC81CA0AAE800F68C85 /* AppDelegate.m in Sources */,
+				CE332DC51CA0AAE800F68C85 /* main.m in Sources */,
+				CE3AE2601CA0FBB30027603A /* OrbitDataXMLParserDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE332DD51CA0AAE800F68C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE332DDE1CA0AAE800F68C85 /* iss_tracker_27_copy__2_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE332DE01CA0AAE800F68C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE332DE91CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE332DDB1CA0AAE800F68C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE332DBF1CA0AAE800F68C85 /* iss_tracker_27_copy_(3) */;
+			targetProxy = CE332DDA1CA0AAE800F68C85 /* PBXContainerItemProxy */;
+		};
+		CE332DE61CA0AAE800F68C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE332DBF1CA0AAE800F68C85 /* iss_tracker_27_copy_(3) */;
+			targetProxy = CE332DE51CA0AAE800F68C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE332DCC1CA0AAE800F68C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE332DCD1CA0AAE800F68C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE332DEB1CA0AAE800F68C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE332DEC1CA0AAE800F68C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE332DEE1CA0AAE800F68C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "iss_tracker_27_copy_(2)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-";
+				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE332DEF1CA0AAE800F68C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "iss_tracker_27_copy_(2)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-";
+				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE332DF11CA0AAE800F68C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iss_tracker_27_copy_(2)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-Tests";
+				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iss_tracker_27_copy_(3).app/iss_tracker_27_copy_(3)";
+			};
+			name = Debug;
+		};
+		CE332DF21CA0AAE800F68C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iss_tracker_27_copy_(2)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-Tests";
+				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iss_tracker_27_copy_(3).app/iss_tracker_27_copy_(3)";
+			};
+			name = Release;
+		};
+		CE332DF41CA0AAE800F68C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iss_tracker_27_copy_(2)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-UITests";
+				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
+				TEST_TARGET_NAME = "iss_tracker_27_copy_(2)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE332DF51CA0AAE800F68C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iss_tracker_27_copy_(2)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-UITests";
+				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
+				TEST_TARGET_NAME = "iss_tracker_27_copy_(2)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE332DBB1CA0AAE800F68C85 /* Build configuration list for PBXProject "iss_tracker_27_copy_(3)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE332DEB1CA0AAE800F68C85 /* Debug */,
+				CE332DEC1CA0AAE800F68C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE332DED1CA0AAE800F68C85 /* Build configuration list for PBXNativeTarget "iss_tracker_27_copy_(3)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE332DEE1CA0AAE800F68C85 /* Debug */,
+				CE332DEF1CA0AAE800F68C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE332DF01CA0AAE800F68C85 /* Build configuration list for PBXNativeTarget "iss_tracker_27_copy_(3)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE332DF11CA0AAE800F68C85 /* Debug */,
+				CE332DF21CA0AAE800F68C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE332DF31CA0AAE800F68C85 /* Build configuration list for PBXNativeTarget "iss_tracker_27_copy_(3)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE332DF41CA0AAE800F68C85 /* Debug */,
+				CE332DF51CA0AAE800F68C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE332DB81CA0AAE800F68C85 /* Project object */;
+}
