@@ -1,0 +1,60 @@
+<?xml version= "1.0" encoding="UTF8" ?>
+
+<orbits>
+
+<orbit id="1">
+<name>International Space Station</name>
+<longitude>-153.45</longitude>
+<latitude>11.43</latitude>
+<altitude>250.46 mile</altitude>
+</orbit>
+
+<orbit id="2">
+    <name>Vangard R/B</name>
+    <longitude>120.18</longitude>
+    <latitude>25.94</latitude>
+    <altitude>3322.15 mile</altitude>
+</orbit>
+
+</orbits>
+
+<!-- </contact> -->
+
+<!--
+ from www.n2yo.com
+ LATITUDE:
+ 11.43
+ LONGITUDE:
+ -153.45
+ ALTITUDE [km]:
+ 403.07
+ ALTITUDE [mi]:
+ 250.46
+ SPEED [km/s]:
+ 7.67
+ 
+ Two Line Element Set (TLE):
+ 1 25544U 98067A   16085.52378826  .00003981  00000-0  67048-4 0  9991
+ 2 25544  51.6428 115.2974 0001943 357.4839 123.8498 15.54247774991968
+
+ 1 25544U 98067A   16085.52378826  .00003981  00000-0  67048-4 0  9991
+ 2 25544  51.6428 115.2974 0001943 357.4839 123.8498 15.54247774991968
+ 
+ https://www.celestrak.com/NORAD/elements/stations.txt
+ 
+ 
+ Vangard R/B
+ VANGUARD R/B
+ LAT: 25.94
+ LNG: 120.18
+ ALT: 3322.15 ↓
+ SPD: 6.41
+
+  
+ Two Line Element Set (TLE):
+ 1 00012U 59001B   16084.18884624  .00000056  00000-0  11324-4 0  9994
+ 2 00012  32.9113 359.8093 1668672 228.1974 116.3724 11.43984591345405
+ 
+ -->
+
+
