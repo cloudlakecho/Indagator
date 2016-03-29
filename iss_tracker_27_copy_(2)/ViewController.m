@@ -78,6 +78,18 @@
         [toggleButton setTitle:@"Start Location Updates"
                       forState:UIControlStateNormal];
     }
+    CLAuthorizationStatus authStatus = [CLLocationManager authorizationStatus];
+    if( authStatus == kCLAuthorizationStatusAuthorized )
+    {
+        UIAlertView *locationServicesAuth = [[UIAlertView alloc] initWithTitle:@"Authorization" message:@"The app is authorized to use location services." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [locationServicesAuth show];
+    }
+    else if ( authStatus != kCLAuthorizationStatusAuthorized )
+    {
+        UIAlertView *locationServicesAuth = [[UIAlertView alloc] initWithTitle:@"Authorization" message:@"The app isn't authorized to use location services." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [locationServicesAuth show];
+        [self.locationManager requestWhenInUseAuthorization];
+    }
     
 }
 
