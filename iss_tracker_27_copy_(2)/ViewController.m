@@ -207,6 +207,7 @@
 - (void)deleteRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths
               withRowAnimation:(UITableViewRowAnimation)animation
 {
+    // may be the method at https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TableView_iPhone/ManageInsertDeleteRow/ManageInsertDeleteRow.html#//apple_ref/doc/uid/TP40007451-CH10-SW9 should be applied
     
 }
 
