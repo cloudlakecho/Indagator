@@ -1,6 +1,6 @@
 //
 //  Item.h
-//  OpenGLES_Ch5_6
+//  five_6
 //
 //  Created by User on 4/6/16.
 //
