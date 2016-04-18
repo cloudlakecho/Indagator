@@ -16,6 +16,21 @@
 		CE332DE91CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DE81CA0AAE800F68C85 /* iss_tracker_27_copy__2_UITests.m */; };
 		CE332DF91CA0AD2B00F68C85 /* OrbitData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332DF81CA0AD2B00F68C85 /* OrbitData.m */; };
 		CE3AE2601CA0FBB30027603A /* OrbitDataXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE25F1CA0FBB30027603A /* OrbitDataXMLParserDelegate.m */; };
+		CE46AFDF1CC333EF00933FC5 /* ViewController test.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46AFDE1CC333EF00933FC5 /* ViewController test.m */; };
+		CE46AFE11CC336F300933FC5 /* Marine_sextant.png in Resources */ = {isa = PBXBuildFile; fileRef = CE46AFE01CC336F300933FC5 /* Marine_sextant.png */; };
+		CE46B0071CC3596F00933FC5 /* five_6AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46B0041CC3596F00933FC5 /* five_6AppDelegate.m */; };
+		CE46B0081CC3596F00933FC5 /* five_6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46B0061CC3596F00933FC5 /* five_6ViewController.m */; };
+		CE46B00D1CC359AF00933FC5 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46B00A1CC359AF00933FC5 /* AGLKContext.m */; };
+		CE46B00E1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46B00C1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.m */; };
+		CE46B01B1CC359DA00933FC5 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0101CC359DA00933FC5 /* Earth512x256.jpg */; };
+		CE46B01C1CC359DA00933FC5 /* lowPolyAxesAndModels2.blend in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0111CC359DA00933FC5 /* lowPolyAxesAndModels2.blend */; };
+		CE46B01D1CC359DA00933FC5 /* lowPolyAxesAndModels2.obj in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0131CC359DA00933FC5 /* lowPolyAxesAndModels2.obj */; };
+		CE46B01E1CC359DA00933FC5 /* Moon256x128.png in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0141CC359DA00933FC5 /* Moon256x128.png */; };
+		CE46B01F1CC359DA00933FC5 /* obj2opengl.pl in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0151CC359DA00933FC5 /* obj2opengl.pl */; };
+		CE46B0201CC359DA00933FC5 /* obj2openglFlippedZ.pl in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0161CC359DA00933FC5 /* obj2openglFlippedZ.pl */; };
+		CE46B0211CC359DA00933FC5 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0171CC359DA00933FC5 /* ReadMe.txt */; };
+		CE46B0221CC359DA00933FC5 /* sphere.blend in Resources */ = {isa = PBXBuildFile; fileRef = CE46B0181CC359DA00933FC5 /* sphere.blend */; };
+		CE46B0231CC359DA00933FC5 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = CE46B01A1CC359DA00933FC5 /* sphere.obj */; };
 		CE77A5E01CA3B6DC00DF03F9 /* orbits.xml in Resources */ = {isa = PBXBuildFile; fileRef = CE77A5DF1CA3B6DC00DF03F9 /* orbits.xml */; };
 		CE7A7C411CA499F300F9A9B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A7C401CA499F300F9A9B6 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +72,29 @@
 		CE332DF81CA0AD2B00F68C85 /* OrbitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitData.m; sourceTree = "<group>"; };
 		CE3AE25E1CA0FBB30027603A /* OrbitDataXMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitDataXMLParserDelegate.h; sourceTree = "<group>"; };
 		CE3AE25F1CA0FBB30027603A /* OrbitDataXMLParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbitDataXMLParserDelegate.m; sourceTree = "<group>"; };
+		CE46AFDD1CC333EF00933FC5 /* ViewController test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController test.h"; sourceTree = "<group>"; };
+		CE46AFDE1CC333EF00933FC5 /* ViewController test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController test.m"; sourceTree = "<group>"; };
+		CE46AFE01CC336F300933FC5 /* Marine_sextant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marine_sextant.png; path = ../../../../../Pictures/Marine_sextant.png; sourceTree = "<group>"; };
+		CE46B0021CC3596F00933FC5 /* 5_6-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "5_6-Prefix.pch"; path = "5_6/5_6/5_6-Prefix.pch"; sourceTree = "<group>"; };
+		CE46B0031CC3596F00933FC5 /* five_6AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = five_6AppDelegate.h; path = 5_6/5_6/five_6AppDelegate.h; sourceTree = "<group>"; };
+		CE46B0041CC3596F00933FC5 /* five_6AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = five_6AppDelegate.m; path = 5_6/5_6/five_6AppDelegate.m; sourceTree = "<group>"; };
+		CE46B0051CC3596F00933FC5 /* five_6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = five_6ViewController.h; path = 5_6/5_6/five_6ViewController.h; sourceTree = "<group>"; };
+		CE46B0061CC3596F00933FC5 /* five_6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = five_6ViewController.m; path = 5_6/5_6/five_6ViewController.m; sourceTree = "<group>"; };
+		CE46B0091CC359AF00933FC5 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKContext.h; path = 5_6/AGLKContext.h; sourceTree = "<group>"; };
+		CE46B00A1CC359AF00933FC5 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKContext.m; path = 5_6/AGLKContext.m; sourceTree = "<group>"; };
+		CE46B00B1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGLKVertexAttribArrayBuffer.h; path = 5_6/AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		CE46B00C1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGLKVertexAttribArrayBuffer.m; path = 5_6/AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		CE46B0101CC359DA00933FC5 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Earth512x256.jpg; path = Resources/Earth512x256.jpg; sourceTree = "<group>"; };
+		CE46B0111CC359DA00933FC5 /* lowPolyAxesAndModels2.blend */ = {isa = PBXFileReference; lastKnownFileType = file; name = lowPolyAxesAndModels2.blend; path = Resources/lowPolyAxesAndModels2.blend; sourceTree = "<group>"; };
+		CE46B0121CC359DA00933FC5 /* lowPolyAxesAndModels2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lowPolyAxesAndModels2.h; path = Resources/lowPolyAxesAndModels2.h; sourceTree = "<group>"; };
+		CE46B0131CC359DA00933FC5 /* lowPolyAxesAndModels2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lowPolyAxesAndModels2.obj; path = Resources/lowPolyAxesAndModels2.obj; sourceTree = "<group>"; };
+		CE46B0141CC359DA00933FC5 /* Moon256x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moon256x128.png; path = Resources/Moon256x128.png; sourceTree = "<group>"; };
+		CE46B0151CC359DA00933FC5 /* obj2opengl.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = obj2opengl.pl; path = Resources/obj2opengl.pl; sourceTree = "<group>"; };
+		CE46B0161CC359DA00933FC5 /* obj2openglFlippedZ.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = obj2openglFlippedZ.pl; path = Resources/obj2openglFlippedZ.pl; sourceTree = "<group>"; };
+		CE46B0171CC359DA00933FC5 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = Resources/ReadMe.txt; sourceTree = "<group>"; };
+		CE46B0181CC359DA00933FC5 /* sphere.blend */ = {isa = PBXFileReference; lastKnownFileType = file; name = sphere.blend; path = Resources/sphere.blend; sourceTree = "<group>"; };
+		CE46B0191CC359DA00933FC5 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sphere.h; path = Resources/sphere.h; sourceTree = "<group>"; };
+		CE46B01A1CC359DA00933FC5 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sphere.obj; path = Resources/sphere.obj; sourceTree = "<group>"; };
 		CE77A5DF1CA3B6DC00DF03F9 /* orbits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orbits.xml; sourceTree = SOURCE_ROOT; };
 		CE7A7C401CA499F300F9A9B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -112,6 +150,7 @@
 		CE332DC21CA0AAE800F68C85 /* iss_tracker_27_copy_(2) */ = {
 			isa = PBXGroup;
 			children = (
+				CE46AFFF1CC3583800933FC5 /* graphic effect */,
 				CE77A5DF1CA3B6DC00DF03F9 /* orbits.xml */,
 				CE332DC61CA0AAE800F68C85 /* AppDelegate.h */,
 				CE332DF71CA0AD2B00F68C85 /* OrbitData.h */,
@@ -124,6 +163,8 @@
 				CE332DD41CA0AAE800F68C85 /* Info.plist */,
 				CE332DCF1CA0AAE800F68C85 /* Assets.xcassets */,
 				CE332DCC1CA0AAE800F68C85 /* Main.storyboard */,
+				CE46AFDD1CC333EF00933FC5 /* ViewController test.h */,
+				CE46AFDE1CC333EF00933FC5 /* ViewController test.m */,
 				CE332DC31CA0AAE800F68C85 /* Supporting Files */,
 			);
 			path = "iss_tracker_27_copy_(2)";
@@ -158,8 +199,44 @@
 		CE332DF61CA0AC7500F68C85 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				CE46AFE01CC336F300933FC5 /* Marine_sextant.png */,
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		CE46AFFF1CC3583800933FC5 /* graphic effect */ = {
+			isa = PBXGroup;
+			children = (
+				CE46B00F1CC359C400933FC5 /* resource */,
+				CE46B0091CC359AF00933FC5 /* AGLKContext.h */,
+				CE46B00A1CC359AF00933FC5 /* AGLKContext.m */,
+				CE46B00B1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.h */,
+				CE46B00C1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.m */,
+				CE46B0021CC3596F00933FC5 /* 5_6-Prefix.pch */,
+				CE46B0031CC3596F00933FC5 /* five_6AppDelegate.h */,
+				CE46B0041CC3596F00933FC5 /* five_6AppDelegate.m */,
+				CE46B0051CC3596F00933FC5 /* five_6ViewController.h */,
+				CE46B0061CC3596F00933FC5 /* five_6ViewController.m */,
+			);
+			name = "graphic effect";
+			sourceTree = "<group>";
+		};
+		CE46B00F1CC359C400933FC5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE46B0101CC359DA00933FC5 /* Earth512x256.jpg */,
+				CE46B0111CC359DA00933FC5 /* lowPolyAxesAndModels2.blend */,
+				CE46B0121CC359DA00933FC5 /* lowPolyAxesAndModels2.h */,
+				CE46B0131CC359DA00933FC5 /* lowPolyAxesAndModels2.obj */,
+				CE46B0141CC359DA00933FC5 /* Moon256x128.png */,
+				CE46B0151CC359DA00933FC5 /* obj2opengl.pl */,
+				CE46B0161CC359DA00933FC5 /* obj2openglFlippedZ.pl */,
+				CE46B0171CC359DA00933FC5 /* ReadMe.txt */,
+				CE46B0181CC359DA00933FC5 /* sphere.blend */,
+				CE46B0191CC359DA00933FC5 /* sphere.h */,
+				CE46B01A1CC359DA00933FC5 /* sphere.obj */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +343,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE332DD01CA0AAE800F68C85 /* Assets.xcassets in Resources */,
+				CE46B0201CC359DA00933FC5 /* obj2openglFlippedZ.pl in Resources */,
+				CE46B0221CC359DA00933FC5 /* sphere.blend in Resources */,
+				CE46B01D1CC359DA00933FC5 /* lowPolyAxesAndModels2.obj in Resources */,
 				CE332DCE1CA0AAE800F68C85 /* Main.storyboard in Resources */,
+				CE46B0231CC359DA00933FC5 /* sphere.obj in Resources */,
+				CE46B01E1CC359DA00933FC5 /* Moon256x128.png in Resources */,
+				CE46B01F1CC359DA00933FC5 /* obj2opengl.pl in Resources */,
 				CE77A5E01CA3B6DC00DF03F9 /* orbits.xml in Resources */,
+				CE46B0211CC359DA00933FC5 /* ReadMe.txt in Resources */,
+				CE46B01B1CC359DA00933FC5 /* Earth512x256.jpg in Resources */,
+				CE46B01C1CC359DA00933FC5 /* lowPolyAxesAndModels2.blend in Resources */,
+				CE46AFE11CC336F300933FC5 /* Marine_sextant.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +381,14 @@
 			files = (
 				CE332DF91CA0AD2B00F68C85 /* OrbitData.m in Sources */,
 				CE332DCB1CA0AAE800F68C85 /* ViewController.m in Sources */,
+				CE46B00E1CC359AF00933FC5 /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				CE332DC81CA0AAE800F68C85 /* AppDelegate.m in Sources */,
 				CE332DC51CA0AAE800F68C85 /* main.m in Sources */,
+				CE46B00D1CC359AF00933FC5 /* AGLKContext.m in Sources */,
+				CE46B0071CC3596F00933FC5 /* five_6AppDelegate.m in Sources */,
 				CE3AE2601CA0FBB30027603A /* OrbitDataXMLParserDelegate.m in Sources */,
+				CE46AFDF1CC333EF00933FC5 /* ViewController test.m in Sources */,
+				CE46B0081CC3596F00933FC5 /* five_6ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +523,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iss_tracker_27_copy_(2)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-";
 				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -445,11 +537,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iss_tracker_27_copy_(2)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "united.iss-tracker-27-copy--2-";
 				PRODUCT_NAME = "iss_tracker_27_copy_(3)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

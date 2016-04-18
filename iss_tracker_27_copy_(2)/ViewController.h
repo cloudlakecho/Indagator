@@ -36,5 +36,7 @@
 
 - (IBAction)onButtonPressed:(id)sender;
 
+- (IBAction)graphicalview:(UIButton *)sender;
+
 @end
 

@@ -63,14 +63,40 @@
         UIAlertView *noLocationServicesAlert = [[UIAlertView alloc] initWithTitle:@"The Find Local Record Stores feature is not available" message:@"Location Services are not enabled" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [noLocationServicesAlert show];
     }
-    else
+    else if ([CLLocationManager locationServicesEnabled])
     {
-        UIAlertView *locationServicesAlert = [[UIAlertView alloc] initWithTitle:@"The Find Local Record Stores feature is available" message:@"Location Services are enabled" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [locationServicesAlert show];
-        
+        //UIAlertView *locationServicesAlert = [[UIAlertView alloc] initWithTitle:@"The Find Local Record Stores feature is available" message:@"Location Services are enabled" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        //[locationServicesAlert show];
+        NSLog(@"location services are enabled.");
         hasInitialized = YES;
+        //locationManager = [[CLLocationManager alloc] init];
+        //locationManager.delegate = self;
+        
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        // ** Don't forget to add NSLocationWhenInUseUsageDescription in MyApp-Info.plist and give it a string
+        
         locationManager = [[CLLocationManager alloc] init];
         locationManager.delegate = self;
+        locationManager.distanceFilter = kCLDistanceFilterNone; //whenever we move
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+        
+        // Check for iOS 8. Without this guard the code will crash with "unknown selector" on iOS 7.
+        //if ([locationManager respondsToSelector:@selector(requestAlwaysAuthorization)])
+        //{
+          //  [locationManager requestAlwaysAuthorization];
+        //}
+        /*
+         if you call requestWhenInUseAuthorization or requestAlwaysAuthorization without the corresponding key, the prompt simply won’t be shown to the user.
+         */
+        //[locationManager requestWhenInUseAuthorization];
+        [locationManager requestAlwaysAuthorization]; // The Simulator needs this
+        //[locationManager startUpdatingLocation];
+        //NSArray<CLLocation *> *locations;
+        //NSLog( @"%@", [locations lastObject] );
+        
+
+
         
         //self.mapView.showsUserLocation = YES;
         //self.searchResultMapItems = [NSMutableArray array];
@@ -78,6 +104,8 @@
         [toggleButton setTitle:@"Start Location Updates"
                       forState:UIControlStateNormal];
     }
+    
+    
     CLAuthorizationStatus authStatus = [CLLocationManager authorizationStatus];
     if( authStatus == kCLAuthorizationStatusAuthorized )
     {
@@ -90,6 +118,7 @@
         [locationServicesAuth show];
         [self.locationManager requestWhenInUseAuthorization];
     }
+    
     
 }
 
@@ -175,6 +204,12 @@
     return  cell;
 }
 
+- (void)deleteRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths
+              withRowAnimation:(UITableViewRowAnimation)animation
+{
+    
+}
+
 // --------------------------------------------------------------------------------------------
 
 - (IBAction)onButtonPressed:(id)sender
@@ -190,6 +225,10 @@
                       forState:UIControlStateNormal];
         [locationManager startUpdatingLocation];
         hasStarted = YES;
+        NSLog(@"The location service started.");
+        //NSArray<CLLocation *> *locations;
+        //NSLog( @"%@", [locations lastObject] );
+
         return;
     }
     
@@ -199,11 +238,19 @@
         [toggleButton setTitle:@"Start Location Updates"
                       forState:UIControlStateNormal];
         [locationManager stopUpdatingLocation];
+        NSLog(@"The location service stopped.");
         hasStarted = NO;
         return;
     }
 
 }
+
+
+- (IBAction)graphicalview:(UIButton *)sender
+{
+    
+}
+
 
 - (void)locationManager:(CLLocationManager *)manager
        didFailWithError:(NSError *)error
@@ -212,6 +259,13 @@
     {
         hasInitialized = NO;
         [locationManager stopUpdatingLocation];
+        NSLog(@"The location service stopped. There is an error.");
+    }
+    else
+    {
+        UIAlertView *errorAlert = [[UIAlertView alloc]initWithTitle:@"Error" message:@"There was an error retrieving your location" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [errorAlert show];
+        NSLog(@"Error: %@",error.description);
     }
 }
 
@@ -264,9 +318,12 @@
  
  */
 
-- (void)locationManager:(CLLocationManager *)manager
-    didUpdateToLocation:(NSArray<CLLocation *> *)locations
+//- (void)locationManager:(CLLocationManager *)manager
+//    didUpdateToLocation:(NSArray<CLLocation *> *)locations
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation*> *)locations
 {
+    
+    
     // lat/lon values should only be considered if
     // horizontalAccuracy is not negative.
     // may be this condition is an issue
@@ -277,6 +334,7 @@
         CLLocationDegrees currentLatitude = locations.lastObject.coordinate.latitude;
         CLLocationDegrees currentLongitude =
         locations.lastObject.coordinate.longitude;
+        
         //CLLocationDistance distanceTravelled = [locations distanceFromLocation:locations.lastObject];
         
         latValue.text = [NSString stringWithFormat:@"%2.3f",
@@ -287,8 +345,8 @@
         
         NSLog(@"%@", latValue.text);
         
-        UIAlertView *locationAlert = [[UIAlertView alloc] initWithTitle:@"Location data available" message:latValue.text delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [locationAlert show];
+        //UIAlertView *locationAlert = [[UIAlertView alloc] initWithTitle:@"Location data available" message:latValue.text delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        //[locationAlert show];
         
     }
     else
@@ -296,6 +354,9 @@
         UIAlertView *locationAlert = [[UIAlertView alloc] initWithTitle:@"horixontalAccury is negative" message:latValue.text delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [locationAlert show];
     }
+    
+    NSLog( @"%@", [locations lastObject] );
+    
 }
 
 

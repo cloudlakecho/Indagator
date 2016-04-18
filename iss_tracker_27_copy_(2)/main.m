@@ -9,6 +9,7 @@
 /*
  not updating the current location - 3/24/2016
  duplicated satellite location - 3/24/2016
+ not on the graphic - 4/16/2016
  
  to add the current user location
 
@@ -25,7 +26,7 @@ int main(int argc, char * argv[])
     @autoreleasepool
     {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-        //return UIApplicationMain(argc, argv, nil, NSStringFromClass([Lesson27AppDelegate class]));
+        
         
     }
 }
